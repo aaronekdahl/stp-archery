@@ -1,37 +1,127 @@
 body {
 	background-color: #ECECEA;
+	font-family: 'Lato', sans-serif;
+}
+
+.title {
+	text-align: center;
+	color: #91AA4E;
+	font-weight: 300;
 }
 
 
 h1 {
-	color: red;
+	font-size: 32px;
 }
 
 h2 {
-
+	font-size: 28px;
 }
 
 h3 {
-
+	font-size: 24px;
 }
 
 h4 {
+	font-size: 20px;
+}
 
+.headline {
+	font-weight: 300;
+	border-bottom: solid #91AA4E 2px;
+	width: 100%;
+	color: #584940;
+}
+
+.sub-headline {
+	font-weight: 300;
+}
+
+.px-size {
+	font-weight: lighter;
 }
 
 p {
+	font-size: 16px;
+}
 
+.blog-entry {
+	font-size: 16px;
+	width: 640px;
+	background-color: #F1F1F1;
+}
+
+/*Hex Codes For Swatches */
+
+.hex1 {
+	float: left;
+	padding-right: 16px;
+	margin-top: 0;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.hex2 {
+	float: left;
+	padding-right: 16px;
+	margin-top: 0;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.hex3 {
+	float: left;
+	padding-right: 16px;
+	margin-top: 0;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.hex4 {
+	float: left;
+	padding-right: 16px;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+}
+
+.hex5 {
+	float: left;
+	padding-right: 16px;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
 }
 
 .button {
 	float: left;
-	padding-bottom: 32px;
+	background-color: #91AA4E;
+	color: #F2F1F0;
+	width: 110px;
+	height: 110px;
+	display: inline;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 110px;
+	border-radius: 55px;
+	font-size: 20px;
+	text-decoration: none;
+	
 }
 
 /*Colors*/
 
 .color-swatches {
 	clear: both;
+	padding-top: 16px;
 }
 
 
@@ -60,11 +150,13 @@ p {
 }
 
 .color4 {
+	clear: both;
 	background-color: #584940;
   width: 120px;
   height: 120px;
  	float: left;
   margin-right: 20px;
+  margin-top: 16px;
 }
 
 .color5 {
@@ -73,4 +165,6 @@ p {
   height: 120px;
   float: left;
   margin-right: 20px;
+  margin-left: 4px;
+  margin-top: 16px;
 }
