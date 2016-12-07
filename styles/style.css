@@ -1,152 +1,37 @@
 * {
-	margin: 0 auto;
-	padding: 0;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box
 }
 
-#wrapper {
-	background-color: green;
-	margin: 16px 64px 16px 64px;
+div.grid {
+  background: white;
+  margin: 0;
+  padding: 0;  
 }
 
-img.logo {
-	float: left;
-	margin: 0;
-	padding: 0;
+div.grid:after {
+  content: "";
+  display: block;
+  clear: both
 }
 
-nav.top-nav {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	font-size: 24px;
-	text-align: justify;
+[class^='col-']  {
+    float: left;
+    padding: 8px;
 }
 
-nav.top-nav li {
-	float: left;
-	list-style-type: none;
-	margin: 50px 25px 0px 25px;
+.col-1-8 {width: 12.5%}
+.col-1-5 {width: 20%}
+.col-1-4 {width: 25%}
+.col-1-2 {width: 50%}
+.col-1-3 {width: 33.33%}
+.col-2-3 {width: 66.66%}
+.col-3-4 {width: 75%}
+
+[class^='col-'] img {
+  width: 100%;
 }
 
-nav.top-nav li a {
-	display: inline-block;
-	text-decoration: none;
-	text-align: center;
-	padding-left: 25px
-}
 
-nav.top-nav li p {
-	font-size: 15px;
-	float: left;
-	width: 20%;
-	display: inline;
-	text-decoration: none;
-	text-align: justify;
-}
-
-h1, h2 {
-	clear: both;
-	font-size: 32px;
-	text-align: center;
-	background-color: red;
-	padding-top: 5px;
-}
-
-h2 {
-	font-size: 24px;
-}
-
-article.events {
-	clear: both;
-	float: right;
-	display: inline-block;
-	background-color: purple;
-	width: 25%;
-}
-
-h3.event-title{
-	display: inline-block;
-	float: left;
-	color: red;
-	text-align: center;
-}
-
-.side-nav ul {
-	clear: both;
-	float: left;
-	display: inline-block;
-}
-
-.side-nav li{
-	list-style-type: none;
-}
-
-.side-nav li a{
-	text-decoration: none;
-}
-
-img.competition {
-	clear: both;
-	float: right;
-}
-
-p {
-	clear: both;
-}
-
-footer {
-	clear: both;
-	background-color: red;
-	align-content: center;
-}
-
-nav.bottom-nav {
-	clear: both;
-	float: left;
-	display: inline-block;
-	background-color: grey;
-	padding-top: 42px;
-	text-align: center;
-}
-
-nav.bottom-nav li {
-	clear: both;
-	list-style-type: none;
-}
-
-nav.bottom-nav li a {
-	text-decoration: none;
-}
-
-div.location {
-	float: left;
-	text-align: center;
-	padding-top: 42px;
-	background-color: yellow;
-}
-
-nav.social-nav {
-	float: left;
-	display: inline-block;
-	background-color: grey;
-	padding-top: 42px;
-	text-align: center;
-}
-
-nav.social-nav li {
-	list-style-type: none;
-}
-
-nav.social-nav li a {
-	text-decoration: none;
-}
-
-p.copyright {
-	clear: both;
-	float: left;
-	width: 100%;
-	text-align: center;
-	padding-top: 8px;
-	background-color: orange;
-}
 
