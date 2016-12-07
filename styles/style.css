@@ -3,11 +3,12 @@
 	padding: 0;
 }
 
-body {
-	margin: 16px 32px 16px 32px;
+#wrapper {
+	background-color: green;
+	margin: 16px 64px 16px 64px;
 }
 
-.logo {
+img.logo {
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -31,54 +32,121 @@ nav.top-nav li a {
 	display: inline-block;
 	text-decoration: none;
 	text-align: center;
-	color: black;
 	padding-left: 25px
 }
 
-h1, h2 {
-	font-size: 32px;
-	clear: both;
+nav.top-nav li p {
+	font-size: 15px;
 	float: left;
-	width: 100%;
+	width: 20%;
+	display: inline;
+	text-decoration: none;
+	text-align: justify;
+}
+
+h1, h2 {
+	clear: both;
+	font-size: 32px;
 	text-align: center;
 	background-color: red;
+	padding-top: 5px;
 }
 
 h2 {
 	font-size: 24px;
 }
 
-h3 {
+article.events {
+	clear: both;
+	float: right;
+	display: inline-block;
+	background-color: purple;
+	width: 25%;
+}
+
+h3.event-title{
+	display: inline-block;
+	float: left;
+	color: red;
+	text-align: center;
+}
+
+.side-nav ul {
 	clear: both;
 	float: left;
+	display: inline-block;
+}
+
+.side-nav li{
+	list-style-type: none;
+}
+
+.side-nav li a{
+	text-decoration: none;
 }
 
 img.competition {
 	clear: both;
-	float: left;
+	float: right;
 }
 
 p {
 	clear: both;
 }
 
-.side-nav {
+footer {
 	clear: both;
-	float: left;
-	display: inline-block;
 	background-color: red;
+	align-content: center;
 }
 
-.social-nav {
+nav.bottom-nav {
 	clear: both;
 	float: left;
 	display: inline-block;
 	background-color: grey;
+	padding-top: 42px;
+	text-align: center;
 }
 
-.bottom-nav {
+nav.bottom-nav li {
 	clear: both;
+	list-style-type: none;
+}
+
+nav.bottom-nav li a {
+	text-decoration: none;
+}
+
+div.location {
+	float: left;
+	text-align: center;
+	padding-top: 42px;
+	background-color: yellow;
+}
+
+nav.social-nav {
 	float: left;
 	display: inline-block;
 	background-color: grey;
-}*/
+	padding-top: 42px;
+	text-align: center;
+}
+
+nav.social-nav li {
+	list-style-type: none;
+}
+
+nav.social-nav li a {
+	text-decoration: none;
+}
+
+p.copyright {
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	background-color: orange;
+}
+
