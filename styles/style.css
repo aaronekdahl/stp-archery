@@ -9,7 +9,8 @@ body {
 
 .logo {
 	float: left;
-	padding: 5px;
+	margin: 0;
+	padding: 0;
 }
 
 nav.top-nav {
@@ -17,15 +18,13 @@ nav.top-nav {
 	padding: 0;
 	overflow: hidden;
 	font-size: 24px;
+	text-align: justify;
 }
 
 nav.top-nav li {
 	float: left;
 	list-style-type: none;
-	margin-top: 20px;
-	padding-left: 32px;
-	padding-top: 32px;
-	padding-bottom: 32px;
+	margin: 50px 25px 0px 25px;
 }
 
 nav.top-nav li a {
@@ -33,17 +32,20 @@ nav.top-nav li a {
 	text-decoration: none;
 	text-align: center;
 	color: black;
+	padding-left: 25px
 }
 
-h1 {
+h1, h2 {
+	font-size: 32px;
+	clear: both;
 	float: left;
 	width: 100%;
-	align-content: center;
+	text-align: center;
+	background-color: red;
 }
 
 h2 {
-	clear: both;
-	float: left;
+	font-size: 24px;
 }
 
 h3 {
