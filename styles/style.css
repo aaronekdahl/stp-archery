@@ -1,0 +1,82 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+	margin: 16px 32px 16px 32px;
+}
+
+.logo {
+	float: left;
+	padding: 5px;
+}
+
+nav.top-nav {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 24px;
+}
+
+nav.top-nav li {
+	float: left;
+	list-style-type: none;
+	margin-top: 20px;
+	padding-left: 32px;
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+nav.top-nav li a {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+}
+
+h1 {
+	float: left;
+	width: 100%;
+	align-content: center;
+}
+
+h2 {
+	clear: both;
+	float: left;
+}
+
+h3 {
+	clear: both;
+	float: left;
+}
+
+img.competition {
+	clear: both;
+	float: left;
+}
+
+p {
+	clear: both;
+}
+
+.side-nav {
+	clear: both;
+	float: left;
+	display: inline-block;
+	background-color: red;
+}
+
+.social-nav {
+	clear: both;
+	float: left;
+	display: inline-block;
+	background-color: grey;
+}
+
+.bottom-nav {
+	clear: both;
+	float: left;
+	display: inline-block;
+	background-color: grey;
+}*/

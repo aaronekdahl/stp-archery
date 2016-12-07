@@ -1,42 +1,52 @@
 
-/*  SECTIONS  ============================================================================= */
+/* 2 Column Layout */
 
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
+div.col_1_of_2 {
+	width: 25%
 }
 
-/*  GROUPING  ============================================================================= */
-
-
-.group:before,
-.group:after {
-    content:"";
-    display:table;
-}
-.group:after {
-    clear:both;
-}
-.group {
-    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+div.col_2_of_2 {
+	width: 75%
 }
 
-/*  GRID COLUMN SETUP   ==================================================================== */
 
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+/* 3 Column Layout */
+
+div.col_1_of_3 {
+	width: 33%
 }
 
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+div.col_2_of_3 {
+	width: 33%
+}
+
+div.col_3_of_3 {
+	width: 33%
+}
 
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+/* 6 Column Layout */
 
-@media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
+div.col_1_of_6 {
+	width: 15%
+}
+
+div.col_2_of_6 {
+	width: 15%
+}
+
+div.col_3_of_6 {
+	width: 15%
+}
+
+div.col_4_of_6 {
+	width: 15%
+}
+
+div.col_5_of_6 {
+	width: 15%
+}
+
+div.col_6_of_6 {
+	width: 15%
 }
