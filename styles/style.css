@@ -6,16 +6,24 @@
   box-sizing: border-box;
 }
 
+      /* Every row is 90% as wide as it's parent, the <body> */
+
 div.row {
   width: 90%;
   margin: auto;
 }
+
+      /* clearfix styles to keep the row divs from collapsing,
+      since all their children are floated */
 
 div.row:after {
   content: "";
   display: block;
   clear: both;
 }
+
+      /* this selector selects all divs that have a class name
+      beginning with 'col_' */
 
 div[class^='col-']  {
     float: left;
@@ -97,8 +105,10 @@ img {
 }
 
 /* Instructor Page Specific Style */
-img.instructors {
+img.instr-01, img.instr-02, img.instr-03 {
   width: 100%;
+}
+
 }
 
 /* Classes Page Specific Style */
