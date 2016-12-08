@@ -7,17 +7,21 @@
     <title>STP Archery</title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/col.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
   
   <body>
-    <div id="wrapper">
-      <header>
-        <div id="site-logo">
-          <img src="./images/logo.jpg" alt="Straight To The Point Archery Logo" style="width: 6rem">
+    
+    <header>
+      <div class="grid">
+        <div class="col-1-8">
+          <img class="logo" src="./images/logo.jpg" alt="Straight To The Point Archery Logo" style="width: 135px">
         </div>
-          <nav id="main-menu">
+      
+        <div class="col-3-4">
+          <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li class="nav-con"><a href="index.html">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="instructors.html">Instructors</a></li>
               <li><a href="classes.html">Classes</a></li>
@@ -25,13 +29,14 @@
               <li><a href="signup.html">Sign Up</a></li>
             </ul>
           </nav>
-      </header>
+        </div>
+      </div>
+    </header>
 
-      <article id="Instructors">
+ <article id="Instructors">
         <h1>The Instructors At Straight To The Point Archery</h1>
 
       <section>
-        <div class="span_1_of_3">
           <header>
             <h3>Amy Smith</h3>
               <figure>
@@ -40,12 +45,10 @@
               </figure>
           </header>
             <p>Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-        </div>
       </section>
       
 
       <section>
-        <div class="span_2_of_3">
           <header>
             <h3>Derek Jenkins</h3>
               <figure>
@@ -55,10 +58,8 @@
           </header>
             <p>Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
         </section>
-      </div>
 
-      <section class="col-section-3">
-        <div class="span_3_of_3">
+      <section>
           <header>
             <h3>Nathan Lee</h3>
               <figure>
@@ -68,26 +69,14 @@
             </header>
             <p>Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
         </section>
-      </div>
-    </article>
+				</article>
 
-      <article>
-        <header>
-          <h3>Upcoming Events</h3>
-            <nav id="sub-nav-01">
+    <footer>
+      <div class="grid">
+        <div class="col-1-3">
+          <nav class="bottom-nav">
+            <h4>Useful Links</h4>
               <ul>
-                <li><a href="event-01">Event 01</a></li>
-                <li><a href="event-02">Event 02</a></li>
-                <li><a href="event-03">Event 03</a></li>
-              </ul>
-            </nav>
-          </header>
-      </article>
-
-      <footer>
-        <nav class="footer-nav">
-          <h4>Useful Links</h4>
-            <ul>
               <li><a href="#">Home</a></li>
               <li><a href="about.html">About Us</a></li>
               <li><a href="instructors.html">Instructors</a></li>
@@ -95,31 +84,39 @@
               <li><a href="calendar.html">Calendar</a></li>
               <li><a href="signup.html">Sign Up</a></li>
             </ul>
-        </nav>
+          </nav>
+        </div>
 
-        <div class="location">
-          <p class="fn"><a class="url" href="#">Straight to the Point Archery</a><p>
+        <div class="col-1-3">
+          <div class="location">
             <p class="adr">
+              <span class="company">Straight to the Point Archery</span><br>
               <span class="street-address">528 Nock Point Ln</span><br>
               <span class="region">Tacoma, WA</span><br>
               <span class="postal-code">98412</span><br>
               <span class="tel">(253)555-1010</span>
             </p>
+          </div>
         </div>
 
-        <nav class="footer-nav">
-          <h4>Connect With Us</h4>
-            <ul>
-              <li><a href="http://www.facebook.com">Facebook</a></li>
-              <li><a href="http://www.twitter.com">Twitter</a></li>
-              <li><a href="http://www.instagram.com">Instagram</a></li>
-              <li><a href="http://www.youtube.com">Youtube</a></li>  
-            </ul>
-        </nav>
-          <p>Copyright 2016. STP Archery</p>
-      </footer>
+        <div class="col-1-3">
+          <nav class="social-nav">
+            <h4>Connect With Us</h4>
+              <ul>
+                <li><a href="http://www.facebook.com">Facebook</a></li>
+                <li><a href="http://www.twitter.com">Twitter</a></li>
+                <li><a href="http://www.instagram.com">Instagram</a></li>
+                <li><a href="http://www.youtube.com">Youtube</a></li>  
+              </ul>
+          </nav>
+        </div>
+      </div>
+        
+        <p class="ndp">Nondiscriminatory Policy: Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
 
-    </div>
+        <p class="copyright">&copy; STP Archery</p>
+      
+    </footer>
   </body>
 </html>
 
