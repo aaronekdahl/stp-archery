@@ -87,7 +87,7 @@ header h1 {
   padding-bottom: 8px;
 }
 
-header h3, figcaption {
+header h2, header h3, figcaption {
   padding-left: 8px;
 }
 
@@ -100,9 +100,19 @@ img {
   padding-left: 8px;
 }
 
+/* Instructor Page Specific Style */
 img.instructors {
   width: 100%;
 }
+
+/* Classes Page Specific Style */
+
+.classes {
+  list-style-type: none;
+  padding-left: 8px;
+  padding-bottom: 16px;
+}
+
 
 
 /* Footer Style */
